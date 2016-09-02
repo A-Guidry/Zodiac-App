@@ -1,0 +1,209 @@
+body {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 18px;
+	text-align: center;
+	margin: 0 auto;
+	clear: both;
+}
+.body{
+	max-width: 100%;
+	min-width: 100%;
+}
+h1,h2,h3,h4,h5,h6 {
+	color: #fff;
+}
+span{
+	font-size: 1.5em;
+	font-weight: bold;
+}
+a:active a:focus{
+	background-color: #777;
+}
+.background{
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+  z-index: -1;
+}
+.background img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}
+.bDay{
+	z-index: 2;
+	margin-top: 5%;
+}
+
+input{
+	text-align: center;
+}
+.sign {
+	position: static;
+}
+
+form{
+	position: static;
+	z-index: 2;
+	padding: 15px 0 25px;
+}
+
+.signImg img {
+	height: 120px;
+	width: auto;
+	padding: 10px;
+}
+.bottomRow{
+	 position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+@media screen and (max-width: 700px){
+	.row {
+		display: none;
+	}
+}
+.zCarousel img{
+		height: 200px;
+		width: 100px;
+		text-align: center;
+		margin: 15px auto 30px;
+		overflow: hidden;
+	}
+	.carousel-indicators{
+		display: none;
+	}
+.carousel{
+	width: 50%;
+	margin: 0 auto;
+}
+.carousel-control.right,
+.carousel-control.left{
+	opacity: .2;
+}
+@media screen and (min-width: 700px){
+	.zCarousel{
+		display: none;
+	}
+	.initiallyHidden>ul{
+		width: 75%;
+	}
+}
+div.scrollmenu {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+    width: 75%;
+    text-align: center;
+    margin: 1% auto;
+    border: 3px solid gold;
+    padding: 5px;
+    border-radius: 35px;
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+    background-color: #777;
+}
+
+.lastIT{
+	margin-right: 40%;
+}
+.firstIT{
+	margin-left: 40%;
+}
+.birthBtn button{
+	display: block;
+	background-color: #333;
+	width: 130%;
+    height: 40px;
+	color: gold;
+}
+.birthDay{
+	display: inline;
+}
+.birthMonth{
+	display: inline;
+}
+.btn-default:hover{
+	background-color: #fff;
+}
+.btn-default:active:focus{
+	background-color: #fff;
+	border:none;
+}
+.btn-default{
+	border:none;
+	width: 20%;
+}
+.dropdown-menu {
+    right: 40%;
+    left: auto;
+    width: 20%;
+    text-align: center;
+}
+.dropdown-menu>li{
+	padding: 5px 0 0;
+}
+.dropdown-menu>li>a:focus, 
+.dropdown-menu>li>a:hover{
+	background-color: #DE3937;
+	color: #fff;
+	font-weight: bold;
+}
+.dropdown-container{
+	display: none;
+}
+.initiallyHidden { 
+	display: none;
+}
+.initiallyHidden img {
+	width: 120px;
+	height: 120px;
+	margin-left: 40%;
+	margin-bottom: 2%;
+}
+.details{
+	text-align: center;
+}
+.initiallyHidden>ul{
+	background-color: #000;
+	opacity: .8;
+	width: 70%;
+	margin: 0 auto;
+	clear: both;
+	color: #fff;
+	margin-bottom: 2%;
+}
+.initiallyHidden>ul>li { 
+	text-align: left; 
+	list-style: none;
+	padding: 1% 0;
+}
+
+div.dropdown, .dropup {
+    position: relative;
+    display: inline;
+}
+
+
+
+
+
+
