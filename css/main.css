@@ -4,6 +4,7 @@ body {
 	text-align: center;
 	margin: 0 auto;
 	clear: both;
+	height: 100%;
 }
 .body{
 	max-width: 100%;
@@ -12,10 +13,6 @@ body {
 h1,h2,h3,h4,h5,h6 {
 	color: #fff;
 }
-span{
-	font-size: 1.5em;
-	font-weight: bold;
-}
 a:active a:focus{
 	background-color: #777;
 }
@@ -23,8 +20,8 @@ a:active a:focus{
   position: fixed; 
   top: -50%; 
   left: -50%; 
-  width: 200%; 
-  height: 200%;
+  width: 150%; 
+  height: 150%;
   z-index: -1;
 }
 .background img {
@@ -35,7 +32,7 @@ a:active a:focus{
   bottom: 0; 
   margin: auto; 
   min-width: 50%;
-  min-height: 50%;
+  min-height: 100%;
 }
 .bDay{
 	z-index: 2;
@@ -61,10 +58,11 @@ form{
 	padding: 10px;
 }
 .bottomRow{
-	 position: fixed;
+	 position: absolute;
     bottom: 0;
     width: 100%;
     z-index: -1;
+    display: block;
 }
 
 @media screen and (max-width: 700px){
@@ -120,6 +118,7 @@ div.scrollmenu a {
 
 div.scrollmenu a:hover {
     background-color: #777;
+    border-radius: 35px;
 }
 
 .lastIT{
@@ -127,19 +126,6 @@ div.scrollmenu a:hover {
 }
 .firstIT{
 	margin-left: 40%;
-}
-.birthBtn button{
-	display: block;
-	background-color: #333;
-	width: 130%;
-    height: 40px;
-	color: gold;
-}
-.birthDay{
-	display: inline;
-}
-.birthMonth{
-	display: inline;
 }
 .btn-default:hover{
 	background-color: #fff;
@@ -189,21 +175,32 @@ div.scrollmenu a:hover {
 	margin: 0 auto;
 	clear: both;
 	color: #fff;
-	margin-bottom: 2%;
+	margin-bottom: 20%;
 }
 .initiallyHidden>ul>li { 
 	text-align: left; 
 	list-style: none;
 	padding: 1% 0;
+	font-style: italic;
 }
 
 div.dropdown, .dropup {
     position: relative;
     display: inline;
 }
+span{
+	font-size: 1.2em;
+	font-weight: bold;
+}
 
-
-
-
+@media screen and (max-width: 650px){
+	.initiallyHidden>ul{
+		width: 90%;
+		padding: 10% 0;
+	}
+}
+.gitHub a{
+	color: #fff;
+}
 
 
